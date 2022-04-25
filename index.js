@@ -6,5 +6,5 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 app.listen(4444, () => {
-  console.log(`🚀 Listening at http:[...]:3333`);
+  console.log(`🚀 Listening at http:[...]:4444`);
 });
