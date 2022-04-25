@@ -5,6 +5,6 @@ const app = express();
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
-app.listen(3333, () => {
+app.listen(4444, () => {
   console.log(`🚀 Listening at http:[...]:3333`);
 });
